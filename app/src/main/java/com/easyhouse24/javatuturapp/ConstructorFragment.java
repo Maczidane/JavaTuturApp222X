@@ -88,7 +88,7 @@ public class ConstructorFragment extends Fragment {
 
     public void showSelectionTab(){
         AlertDialog.Builder alert = new AlertDialog.Builder(getContext());
-        alert.setMessage("Do you which to answer questions related to what you have learned in the previous topics?");
+        alert.setMessage("Do you wish to answer questions related to what you have learned in the previous topics?");
         alert.setNegativeButton("Answer Questions", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
